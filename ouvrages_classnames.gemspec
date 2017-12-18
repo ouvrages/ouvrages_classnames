@@ -21,4 +21,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rspec-rails", "~> 3.6"
+
+  spec.post_install_message = <<-MESSAGE
+    !    The 'ouvrages_classnames' gem has been deprecated and has been replaced by 'klassnames'.
+    !    See: https://rubygems.org/gems/klassnames
+    !    And: https://github.com/komposable/klassnames
+  MESSAGE
 end
+

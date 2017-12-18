@@ -1,5 +1,7 @@
 # OuvragesClassnames
 
+Moved to [klassnames](https://github.com/komposable/klassnames)
+
 View helper to simplify conditional class in view.
 
 ## Installation
